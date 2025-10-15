@@ -11,7 +11,7 @@ export const about = function () {
     item1h2.classList.add('menu-h2');
     item1h2.textContent = "Our Story: ";
     const item1p = document.createElement('p');
-    item1p.textContent = "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rerum vitae porro tempora iure excepturi fugiat, veritatis quaerat eaque accusantium autem quis, beatae ratione numquam animi. Sunt numquam soluta libero accusamus! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maxime eius, eaque rerum vero repellat reiciendis voluptatibus perspiciatis, esse possimus neque cum maiores earum eum laborum labore fugiat veritatis harum in!"
+    item1p.textContent = "The Burger Co. brings bold Korean flair to classic American favorites, offering fiery kimchi-style burgers alongside savory ramen—try their miso-egg or kimchi-packed bowls for a flavorful twist. Cozy ambiance, fresh ingredients, and a menu that bridges comforting East-meets-West vibes promise a crave-worthy meal every time. For More information about us, pleas use the below contact information to contact us."
     item1.appendChild(item1h2);
     item1.appendChild(item1p)
 

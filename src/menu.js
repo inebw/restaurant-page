@@ -29,21 +29,21 @@ export const menu = function () {
     for (let i = 1; i <= 5; i++) {
         const p = document.createElement('p');
         p.classList.add('item-name');
-        p.textContent = `Food Item ${i} : ${5+i}`
+        p.textContent = `Food Item ${i} : $${5+i}`
         item1.appendChild(p);
     }
 
     for (let i = 6; i <= 10; i++) {
         const p = document.createElement('p');
         p.classList.add('item-name');
-        p.textContent = `Food Item ${i} : ${15-i}`
+        p.textContent = `Food Item ${i} : $${15-i}`
         item2.appendChild(p);
     }
 
     for (let i = 11; i <= 15; i++) {
         const p = document.createElement('p');
         p.classList.add('item-name');
-        p.textContent = `Food Item ${i} : ${25-i}`
+        p.textContent = `Food Item ${i} : $${25-i}`
         item3.appendChild(p);
     }
 
